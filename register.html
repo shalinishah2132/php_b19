@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register with us</h1>
+    <hr>
+    <form action="success.html" method="post">
+        <table border="1" width='75%' align="center">
+            <tr>
+                <td>Enter fullname</td>
+                <td>
+                    <input type="text" name="txtfullname" /> 
+                </td>
+            </tr>
+             <tr>
+                <td>Enter email</td>
+                <td>
+                    <input type="email" name="txtemail" />
+                </td>
+            </tr>
+             <tr>
+                <td>Enter Mobile</td>
+                <td>
+                    <input type="number" name="txtmobile" />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    Enter city
+                </td>
+                <td>
+                    <select name="sltcountry">
+                        <option value="">select</option>
+                        <option value="1">Bhavnagar</option>
+                        <option value="2">Baroda</option>
+                        <option value="3">Surat</option>
+                    </select>
+                </td>
+            </tr>
+             <tr>
+                <td>Enter Birthdate</td>
+                <td>
+                    <input type="date" name="txtdob" />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    select gender
+                </td>
+                <td>
+                    <input type="radio" name="rdogender" value="1">Male
+                    <input type="radio" name="rdogender" value="0">Female
+                </td>
+            </tr>
+             <tr>
+                <td>Select language you know</td>
+                <td>
+                    <input type="checkbox" name="chkguj" value="1">Gujarati
+                    <input type="checkbox" name="chkeng" value="1">English
+                    <input type="checkbox" name="chkhin" value="1">Hindi
+                </td>
+            </tr>
+             <tr>
+                <td>Enter address</td>
+                <td>
+                    <textarea name="txtaddress" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+             <tr>
+                <td>select photos</td>
+                <td>
+                    <input type="file" name="filphoto" accept="image/*" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="send detail" name="btnsubmit" />
+                    <input type="reset" value="clear all" name="btnreset" />
+                    <input type="button" value="Nothing will happen" name="btnnothing" />
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>

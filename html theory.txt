@@ -1,0 +1,27 @@
+there mainly two types of html tags.
+output related html tags
+    tag which is used to show output means format text are called output related html tags. 
+        b, i, u, font, strike, p, div, span, table, tr, td, ul, ol, li etc 
+
+input related html tags 
+    tag which are used to accept any type of input from user is called input related html tags 
+
+    for example we want to accept name,age,gender,mobile,pincode,city,feedback,photographs in such case we have to use input related html tags. 
+
+    there are mainly two types of input 
+    1) text (text like name,age,gender,mobile,pincode,city,feedback)
+        single line input 
+            name,mobile,email,pincode,age etc 
+            input tag is used for single line input 
+        multiline input 
+            feedback, message, review, remarks 
+            textarea tag is used for multiline line input 
+        selection base input 
+            gender, hobbies, country, state, etc 
+            input tag is also used for selection based input & select tag is also used 
+    2) binary input (file like photographs,images, audio, video, documents )
+            input tag is also used for binary based input 
+we can accept any type of inputs from user using below tags 
+    input, select, textarea, button 
+
+to give button in html we can use either input tag or button tag 
