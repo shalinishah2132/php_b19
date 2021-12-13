@@ -9,32 +9,32 @@
 <body>
     <h1>Register with us</h1>
     <hr>
-    <form action="success.html" method="post">
+    <form action="success.html" method="post" enctype="multipart/form-data">
         <table border="1" width='75%' align="center">
             <tr>
-                <td>Enter fullname</td>
-                <td>
-                    <input type="text" name="txtfullname" /> 
+                <td width='30%'>Enter fullname *</td>
+                <td width='70%'>
+                    <input type="text" name="txtfullname" required /> 
                 </td>
             </tr>
              <tr>
-                <td>Enter email</td>
+                <td>Enter email *</td>
                 <td>
-                    <input type="email" name="txtemail" />
+                    <input type="email" name="txtemail" required />
                 </td>
             </tr>
              <tr>
-                <td>Enter Mobile</td>
+                <td>Enter Mobile *</td>
                 <td>
-                    <input type="number" name="txtmobile" />
+                    <input required type="number" name="txtmobile" />
                 </td>
             </tr>
              <tr>
                 <td>
-                    Enter city
+                    Enter city*
                 </td>
                 <td>
-                    <select name="sltcountry">
+                    <select name="sltcountry" required>
                         <option value="">select</option>
                         <option value="1">Bhavnagar</option>
                         <option value="2">Baroda</option>
@@ -43,9 +43,9 @@
                 </td>
             </tr>
              <tr>
-                <td>Enter Birthdate</td>
+                <td>Enter Birthdate * </td>
                 <td>
-                    <input type="date" name="txtdob" />
+                    <input type="date" name="txtdob" required />
                 </td>
             </tr>
              <tr>
@@ -53,8 +53,8 @@
                     select gender
                 </td>
                 <td>
-                    <input type="radio" name="rdogender" value="1">Male
-                    <input type="radio" name="rdogender" value="0">Female
+                    <input type="radio" name="rdogender" value="1" required >Male
+                    <input type="radio" name="rdogender" value="0" required >Female
                 </td>
             </tr>
              <tr>
@@ -71,14 +71,14 @@
                     <textarea name="txtaddress" cols="30" rows="10"></textarea>
                 </td>
             </tr>
-             <tr>
-                <td>select photos</td>
+            <tr>
+                <td>select photos <b>size<2MB</b></td>
                 <td>
                     <input type="file" name="filphoto" accept="image/*" >
                 </td>
             </tr>
             <tr>
-                <td>
+                <td colspan="2" align="center">
                     <input type="submit" value="send detail" name="btnsubmit" />
                     <input type="reset" value="clear all" name="btnreset" />
                     <input type="button" value="Nothing will happen" name="btnnothing" />
